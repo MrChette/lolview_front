@@ -1,0 +1,10 @@
+<div class="text-center underline">
+  <h1>TOP 10 CHALLENGERS</h1>
+</div>
+<div class="col">
+  <div class="col" *ngFor="let summoner of getTop10">
+    <div class="card">
+      <card-component [book]="book"/>
+    </div>
+  </div>
+</div>
